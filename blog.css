@@ -1,0 +1,478 @@
+* {padding: 0; margin: 0;}
+
+/* MENU */
+menu {
+    position: relative;
+    background: white; 
+    height: 80px; 
+    line-height: 60px;
+}
+menu .kiri img{
+    position: absolute;
+    height: 40px;
+    width: auto;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background: white; 
+}
+menu .tengah {
+    margin-left: 150px;
+}
+menu ul li {
+    float: left; 
+    list-style: none; 
+    background: white;
+    margin-top: 10px;
+}
+menu ul li a {
+    margin-right: 15px;
+    text-decoration: none;
+    padding: 3px 15px;
+    color: black;
+}
+menu ul li ul {display: none;}
+menu ul li:hover > ul {display: block;}
+menu ul li ul {position: absolute;}
+menu ul li ul li {
+    float: none;
+    position: relative;
+}
+menu ul li a:hover {color: #a2d2ff;}
+
+menu .kanan {
+    float: right;
+    margin-top: 10px;
+}
+menu .kanan img:hover {
+    width: 40px;
+    background-color: black;
+}
+
+/* HOME BACKGROUND */
+.wallpaper .homebg img {
+    width: 100%;
+    height: 600px;
+}
+.wallpaper {
+    width: 100%;
+    height: 500px;
+    margin: auto;
+}
+.textwall {
+    position: absolute;
+    width: 50%;
+    bottom: 60%;
+    top: 40%;
+    left: 40%;
+}
+.textwall .text1 {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+    margin-top: -60px;
+    color: white;
+    font-size: 30px;
+}
+
+/* KIRI */
+.container {
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+.container .kiri {
+    width: 700px;
+    float: left;
+}
+
+/* kiri1 */
+.container .kiri .kiri1 {
+    margin-left: 50px;
+}
+.container .kiri .kiri1 img {
+    width: 700px;
+    height: auto;
+    margin-top: 200px;
+}
+.container .kiri .kiri1 h2 {
+    margin-top: 30px;
+}
+.container .kiri .kiri1 p {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.container .kiri .kiri1 a {
+    text-decoration: none;
+    color: black;
+}
+.container .kiri .kiri1 a:hover {
+    color: #ef233c;
+}
+.kiri .tulisan a {
+    border-radius: 5px;
+    background-color: #ef233c;
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 20px;
+    color: white;
+}
+.kiri .tulisan a:hover {
+    background-color: transparent;
+    color:#ef233c;
+}
+
+/* kiri2 */
+.container .kiri {
+    overflow: hidden;
+}
+.container .kiri .kiri2 {
+    width: 600px;
+    float: left;
+    margin-left: 50px;
+}
+.container .kiri .kiri2 img {
+    width: 700px;
+    height: auto;
+    margin-top: 100px;
+}
+.container .kiri .kiri2 h2 {
+    margin-top: 30px;
+}
+.container .kiri .kiri2 p {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.container .kiri .kiri2 a {
+    text-decoration: none;
+    color: black;
+}
+.container .kiri .kiri2 a:hover {
+    color: #ef233c;
+}
+
+/* kiri3 */
+.container .kiri {
+    overflow: hidden;
+}
+.container .kiri .kiri3 {
+    width: 600px;
+    float: left;
+    margin-left: 50px;
+}
+.container .kiri .kiri3 img {
+    width: 700px;
+    height: auto;
+    margin-top: 100px;
+}
+.container .kiri .kiri3 h2 {
+    margin-top: 30px;
+}
+.container .kiri .kiri3 p {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.container .kiri .kiri3 a {
+    text-decoration: none;
+    color: black;
+}
+.container .kiri .kiri3 a:hover {
+    color: #ef233c;
+}
+
+/* kiri4 */
+.container .kiri {
+    overflow: hidden;
+}
+.container .kiri .kiri4 {
+    width: 600px;
+    float: left;
+    margin-left: 50px;
+}
+.container .kiri .kiri4 img {
+    width: 700px;
+    height: auto;
+    margin-top: 100px;
+}
+.container .kiri .kiri4 h2 {
+    margin-top: 30px;
+}
+.container .kiri .kiri4 p {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.container .kiri .kiri4 a {
+    text-decoration: none;
+    color: black;
+}
+.container .kiri .kiri4 a:hover {
+    color: #ef233c;
+}
+
+/* kiri4 */
+.container .kiri {
+    overflow: hidden;
+}
+.container .kiri .kiri5 {
+    width: 600px;
+    float: left;
+    margin-left: 50px;
+}
+.container .kiri .kiri5 img {
+    width: 700px;
+    height: auto;
+    margin-top: 100px;
+}
+.container .kiri .kiri5 h2 {
+    margin-top: 30px;
+}
+.container .kiri .kiri5 p {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.container .kiri .kiri5 a {
+    text-decoration: none;
+    color: black;
+}
+.container .kiri .kiri5 a:hover {
+    color: #ef233c;
+}
+.container .kiri .pagination {
+    width: 500px;
+    margin: auto;
+    padding: 15px;
+}
+.container .kiri .pagination a {
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.container .kiri .pagination a:hover {
+    background-color: silver;
+    border-radius: 10px;
+    color:#ef233c;
+}
+
+/* KANAN 1 */
+.container .kanan {
+    width: 400px;
+    float: right;
+}
+
+.container .kanan .kanan1 {
+    margin-top: 250px;
+}
+.container .kanan .kanan1 input.inputText {
+    line-height: 40px;
+    width: 300px;
+}
+.container .kanan .kanan1 input[type=submit] {
+    background-color: #a2d2ff;
+    width: 300px;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border-color: #a2d2ff;
+}
+.container .kanan .kanan1 input[type=submit]:hover {
+    background-color: #ef233c;
+    border-color: #ef233c;
+}
+
+/* KANAN 2 */
+.container .kanan .kanan2 h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.kanan2{
+    width: 300px;
+}
+
+.kanan2 .cat{
+    width: 200px;
+}
+.container .kanan .kanan2 a {
+    display:block;
+    color: black;
+    margin-bottom: 20px;
+    text-decoration: none;
+
+}
+.container .kanan .kanan2 a:hover {
+    display:block;
+    color: #ef233c;
+}
+.container .kanan .kanan3 h1 {
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.container .kanan .kanan3 .gambar1 img{
+    width: auto;
+    height: 80px;
+    margin-bottom: 20px;
+}
+.kanan3 .gambar1 a {
+    position:absolute;
+    right: 10%;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.kanan3 .gambar1 a:hover {
+    color:#ef233c;
+}
+.kanan4 h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.kanan4 a {
+    text-decoration: none;
+    color:black;
+    margin-right: 20px;
+    line-height: 20px;
+    padding: 10px;
+}
+.kanan4 a:hover {
+    border-radius: 5px;
+    background-color: #ef233c;
+    color: white;
+}
+.kanan5 h1 {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.kanan5 {
+    position: relative;
+}
+.ig1 {
+    width: 100px; 
+    float: left; 
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.ig1 img {
+    width: 100%; 
+    height: auto;
+    border-radius: 2%;
+}
+.kanan6 h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.kanan6 input.inputText {
+    line-height: 40px;
+    width: 300px;
+}
+.kanan6 input[type=submit] {
+    background-color: #a2d2ff;
+    width: 300px;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border-color: #a2d2ff;
+}
+.kanan6 input[type=submit]:hover {
+    background-color: #ef233c;
+    border-color: #ef233c;
+}
+
+/* FOOTER */
+/* FOOTER */
+footer {
+    margin-top: 200px;
+    background-color: #040E27;
+    display:inline-flex;
+    color: white;
+    width: 100%;
+}
+footer a:hover {
+    color:#ef233c;
+}
+footer .footer1 {
+    float: left;
+}
+.footer1 img {
+    height: 60px;
+    line-height: 300px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.footer1 p{
+    text-align: left;
+    margin-left: 50px;
+}
+footer .footer2 {
+    float: left;
+    margin-left: 50px;
+}
+.footer2 h2 {
+    text-align: left;
+    margin-left: 60px;
+    margin-top: 70px;
+}
+.footer2 a {
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 60px;
+    display:flex;
+    text-decoration: none;
+    color: white;
+}
+footer .footer3 {
+    width: 500px;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+footer .footer3 ul li {
+    margin-top: 8px;
+    list-style: none;
+    float: left;
+    width: 148px;
+    line-height: 36px;
+}
+footer .footer3 ul li a {
+    text-decoration: none;
+    color: white;
+}
+footer .footer3 a:hover {
+    color:#ef233c;
+}
+footer .footer4 {
+    position: relative;
+}
+.footer4 h2 {
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.footg {
+    width: 80px; 
+    float: left; 
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.footg img {
+    width: 100%; 
+    height: auto;
+}
+.bot {
+    background-color: #040E27;
+    color: white;
+    text-align: center;
+    list-style: none;
+    padding: 50px;
+}
+.bot a {
+    text-decoration: none;
+    list-style: none;
+    color: #ef233c;
+}

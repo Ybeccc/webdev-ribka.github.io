@@ -1,0 +1,100 @@
+* {padding: 0; margin: 0;}
+
+/* MENU */
+menu {
+    position: relative;
+    background: white; 
+    height: 80px; 
+    line-height: 60px;
+}
+menu .kiri img{
+    position: absolute;
+    height: 40px;
+    width: auto;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background: white; 
+}
+menu .tengah {
+    margin-left: 150px;
+}
+menu ul li {
+    float: left; 
+    list-style: none; 
+    background: white;
+    margin-top: 10px;
+}
+menu ul li a {
+    margin-right: 15px;
+    text-decoration: none;
+    padding: 3px 15px;
+    color: black;
+}
+menu ul li ul {display: none;}
+menu ul li:hover > ul {display: block;}
+menu ul li ul {position: absolute;}
+menu ul li ul li {
+    float: none;
+    position: relative;
+}
+menu ul li a:hover {color: #a2d2ff;}
+
+menu .kanan {
+    float: right;
+    margin-top: 10px;
+}
+menu .kanan img:hover {
+    width: 40px;
+    background-color: black;
+}
+
+/* HOME BACKGROUND */
+.homebg {
+    position: relative;
+    margin-bottom: 100px;
+}
+.homebg img {
+    height: 640px;
+    width: auto;
+}
+.homebg .text1 {
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    font-family:'Times New Roman';
+    top: 70px;
+    right: 300px;
+}
+article .kiri {
+    width: 300px; 
+    float: left;
+}
+article h1 {
+    margin-left: 50px;
+    font-size: 40px;
+}
+article p {
+    margin-left: 150px;
+    margin-right: 300px;
+    margin-top: 20px;
+}
+
+/* IMAGE */
+.image img {
+    height: 250px;
+    width: auto;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.tulisan h1 {
+    display: inline;
+    text-align: center;
+    margin-left: 200px;
+    font-size: 50px;
+}
+.tulisan p {
+    text-align: center;
+    position: relative;
+}
